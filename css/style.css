@@ -1,0 +1,38 @@
+body{
+    background-color: lightblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: darkblue;
+}
+
+img {
+    width: 10em;
+    height: auto;
+    border-radius: 15px;
+    padding: 10px;
+}
+video {
+    width: 30em;
+    height: auto;
+}
+
+ul {
+    display: flex;
+    box-sizing: content-box;
+    justify-content: center;
+}
+
+.listas {
+    padding: 5px;
+    border-radius: 15px;
+    border: solid 5px white;
+    background-color: lightseagreen;
+    margin: 15px;
+}
+
+h2{
+    color: darkgreen;
+}

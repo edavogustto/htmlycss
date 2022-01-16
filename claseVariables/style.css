@@ -1,0 +1,43 @@
+:root {
+    --primary-color : #004535;
+    --secundary-color: #5fab99;
+    --header-size: 4 rem;
+    --font: 1.8rem;
+
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Dongle', sans-serif;
+}
+
+header {
+    width: 100vw;
+    height: 15vh;
+    background-color: var(--primary-color);
+}
+
+main {
+    width: 100vw;
+    height: 70vh;
+    font-size: var(--font);
+}
+
+h1 {
+    font-size:  4rem;
+}
+
+footer {
+    width: 100vw;
+    height: 15vh;
+    background-color: var(--secundary-color);
+}
+ 
+

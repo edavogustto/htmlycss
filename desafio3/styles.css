@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.menu {
+    background-color: #e9183b;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 6);
+}
+
+.logo {
+    color: seashell;
+    font-size: 35px;
+    padding: 0 80px;
+    font-weight: bold;
+}
+
+.menu-items {
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+
+}
+
+.menu-items li {
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+.menu-items li a {
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.menu-items li:hover, li:active {
+    background-color: rgba(0, 0, 0, .3)
+}
+
+aside {
+    background-color: rosybrown;
+    width: 25vw;
+    display: inline-block;
+}
+
+
+
+.page-footer {
+    background-color: rgba(0, 0, 0, .3);
+    height: 10vh;
+    width: 100vw;
+}
+
+aside .blocks {
+    background-color: white;
+    border-radius: 10px;
+    width: 70%;
+    height: 20%;
+    margin: 15%;
+    
+}
+
+aside, section {
+    display: inline-block;
+    height: 80vh;
+
+}
+
+main {
+    height: 80vh;
+}
+
+section {
+    height: 80vh;
+    position: absolute;
+    margin: 20px;
+
+}
+

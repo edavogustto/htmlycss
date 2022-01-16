@@ -1,0 +1,30 @@
+.main-nav{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 10px;
+    background-color: lightskyblue;
+}
+.main-nav_item{
+    display: inline-block
+    ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+.main-nav_item a{
+    color: white;
+    border-radius: 2px;
+    padding: 5px;
+    text-decoration: none;
+}
+.main-nav_item a:hover{
+    color: blue;
+}
+
+.main-nav_item a:active{
+    color: red;
+}
+
+.main-nav_item a::after{
+    content: " | ";
+
+}

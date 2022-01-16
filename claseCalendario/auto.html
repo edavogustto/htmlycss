@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba de autocompletado</title>
+</head>
+<body>
+    <form action="">
+        <label for="name">
+            <span>¿Cual es tu nombre?</span>
+            <input type="text" id="name" name="name" autocomplete="name" required>
+        </label>
+        <label for="email">
+            <span>¿Cual es tu correo?</span>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+        </label>
+        <label for="country">
+            <span>¿En que pais vives?</span>
+            <input type="text" id="country" name="country" autocomplete="country" required>
+        </label>
+        <label for="zip-code">
+            <span>¿Cual es tu codigo postal?</span>
+            <input type="text" id="zip-code" name="zip-code" autocomplete="postal-code" required>
+        </label>
+        <label for="courses">
+            <span>¿Que curso deseas tomar?</span>
+            <input list="courses">
+            <datalist id="courses">
+                <option value="Python"></option>
+                <option value="Css"></option>
+                <option value="JavaScript"></option>
+                <option value="C++"></option>∫
+            </datalist>
+        </label>
+        
+        <input type="submit" >
+    </form>
+</body>
+</html>

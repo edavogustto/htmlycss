@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding-inline-end: ;
+}
+
+#logo {
+    width: 200px;
+    height: auto;
+}
+
+.page-header {
+    background-color: tomato;
+}
+
+.nav a{
+    text-decoration: none;
+}
+
+.nav {
+    list-style-type: none;
+}
+
+.nav li {
+    display: inline-block;
+}
+

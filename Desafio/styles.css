@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0pt;
+}
+
+.title {
+    padding: 20px;
+    width: 500px;
+    height: 100px;
+    background-color: green;
+    border-radius: 10px;
+    border: 4px black;
+    position: relative;
+    left: 150px;
+    top: -40px;
+
+}
+
+.content {
+    width: 800px;
+    height: 600px;
+    background-color: rgb(29, 29, 92);
+    border-radius: 10px;
+    border: 4px black;
+    position: absolute;
+    left: 500px;
+    top: 200px;
+    padding: 20px;
+
+}
+
+h1 {
+    font-family: monospace;
+    color: white ;
+    text-align: center;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
